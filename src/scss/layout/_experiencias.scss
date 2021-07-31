@@ -1,0 +1,52 @@
+.experiencias{
+    .contenido-experiencias{
+        .smart{
+            text-align: center;
+            padding: 2rem;
+            h1{
+                font-size: 4rem;
+                font-family: $fuenteprimaria;
+            }
+            span{
+                color: $amarillo;
+            }
+            p{
+                font-size: 2.5rem;
+                line-height: none;
+            }
+        }
+
+    }
+}
+.celulares{
+   margin-top: 2rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);  
+    .imagen-cel{
+        .imagencel{
+            height: 45rem;
+            width: 65rem;
+        }
+      
+    }
+    .textos{
+     text-align: center;
+     margin-top: 15rem;
+ 
+   
+   
+    
+     h1{
+         font-size: 3.5rem;
+         font-family: $fuenteprimaria;
+     }
+     h2{
+        font-size: 3rem;
+        font-family: $fuenteprimaria;
+        font-weight: normal;
+        margin-top: 3rem;
+     }
+    }  
+  
+
+}

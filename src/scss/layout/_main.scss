@@ -1,0 +1,187 @@
+.informacion{
+    background-color: $mate;
+    position: relative;
+    .contenido-informacion{
+        .titulo{
+         text-align: center;
+         padding-top: 3rem;
+         font-size: 1.5rem;   
+         font-family: $fuenteprimaria;
+         color:$blanco;
+         span{
+             color:$amarillo;
+         }
+        }
+        .parrafo{
+            color: $blanco;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    }
+}
+.contenedores{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 14rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    .contenido-contenedor1{
+        background-color: $blanco;
+        margin-left: 18rem;
+        
+       
+       
+        .titulo1{
+            font-family: $fuenteprimaria;
+            background-color: $negro;
+            color: $blanco;
+            padding: .5rem;
+            text-align: center;
+            line-height: none;
+            padding-bottom: 2.5rem;
+          
+            span{
+                color: $amarillo;
+                font-size: 4.5rem;
+              
+              
+            }
+        }
+        .precio{
+            .contenido-precio{
+                background-color: $amarillo;
+                
+                text-align: center;
+                padding: .5rem;
+                margin-left: 5rem;
+                margin-right: 5rem;
+                margin-top: -1.1rem;
+                h2{
+                    font-family: $fuenteprimaria;
+                    font-size: 2rem;
+                    color: $blanco;
+                    
+                }
+                span{
+                    font-size: 3.5rem;
+                    font-weight: bold;
+                    
+                }
+            }
+         
+
+        }
+        .parrafo1{
+            p{
+                text-align: center;
+                font-size: 2.2rem;
+                font-family: $fuenteprimaria;
+                color: $negro;
+            
+            }
+            
+        }
+        .beneficios{
+            text-align: center;
+            font-size: 1.9rem;
+            font-family: $fuenteprimaria;
+            color: $negro;
+            font-weight: bold;
+            h2{
+                color: $gris;
+            }
+        }
+
+        .boton{
+            margin-bottom: 2rem;
+          text-align: center;
+          margin-left: 5rem;
+          margin-right: 2rem;
+            font-size: 2rem;
+            padding: 1.5rem 5rem;
+            background-color: $rojo;
+            border: none;
+            color: $blanco;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+       
+    }
+
+    .contenido-contenedor2{
+        background-color: $blanco;
+        margin-right: 18rem;
+        .titulo2{
+          background-color: $amarillo;
+          padding: .5rem;
+          text-align: center;  
+        
+          padding-bottom: 2.5rem;
+          
+         h1{
+             color: $blanco;
+         }
+          span{
+              font-size: 4.5rem;
+              font-weight: bold;
+              
+          }
+        }
+        .precio1{
+            background-color: $negro;
+            color: $blanco;
+            padding: .5rem;
+            text-align: center;
+            font-family: $fuenteprimaria;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-top: -1.1rem;
+            h2{
+                font-size: 2rem;
+            }
+            span{
+                font-size: 3.5rem;
+            }
+        }
+        .parrafo2{
+            font-family: $fuenteprimaria;
+            font-size: 2.2rem;
+            text-align: center;
+        }
+        .beneficios1{
+            text-align: center;
+            h2{
+                font-size: 3.5rem;
+                color: $gris;
+            }
+            .lista{
+                p{
+                    text-align: center;
+                    font-size: 1.9rem;
+                    font-weight: bold;
+                    font-family: $fuenteprimaria;
+                }
+            }
+
+        }
+        .boton1{
+            
+            text-align: center;
+            margin-left: 5rem;
+            margin-right: 2rem;
+              font-size: 2rem;
+              padding: 1.5rem 5rem;
+              background-color: $rojo;
+              border: none;
+              color: $blanco;
+              margin-top: 13rem;
+              margin-bottom: 2rem;
+              &:hover{
+                  cursor: pointer;
+              }
+        }
+    }
+}
+

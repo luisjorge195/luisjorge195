@@ -1,0 +1,21 @@
+.header{
+    background-color: $negro;
+    .contenido-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+    .navegacion{
+      a{
+          font-family: $fuenteprimaria;
+         padding: 1.3rem;
+          color: $blanco;
+          font-size: 1.3rem;
+          font-weight: bold;
+      }
+
+    }
+   
+}

@@ -1,0 +1,101 @@
+.entrenamiento{
+    margin-top: 4rem;
+    .contenido-entrenamiento{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 2rem;
+    }
+}
+.smartfit-go, .smartfitapp, .tiendasmart{
+    border-style: ridge;
+    border-radius: 1rem;
+    h1{
+        text-align: center;
+        background-color: $amarillo;
+       padding: 1.5rem;
+       font-size: 3rem;
+    }
+    h2{
+        background-color: $amarillo;
+        
+        padding: .54rem;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: -4.4999rem;
+        margin-left: 6rem;
+        font-weight: normal;
+        
+    }
+    h3{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    p{
+        font-family: $fuenteprimaria;
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        text-align: center;
+        span{
+            font-weight: bold;
+        }
+    }
+
+    .botonessmart{
+      
+        margin-top: 2rem;
+     
+        .bottom{
+           
+            background-color: $amarillo;
+            font-size: 2rem;
+            text-transform: uppercase;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: bold;
+           
+            &:hover{
+                cursor: pointer;
+            }
+        }
+       ;
+    }
+  
+   
+    
+}
+.smartfit-go{
+    
+    .imagen-go{
+      
+        background-image: url(/src/images/smartfitgo.jpg);
+        height: 20rem;
+        
+        background-repeat: no-repeat;
+    }
+   
+   
+
+}
+
+.smartfitapp{
+    .contenido-smartapp{
+        .imagen-app{
+            background-image: url(/src/images/smartfitapp.jpg);
+            height: 20rem;
+            background-repeat: no-repeat;
+          
+
+        }
+    }
+}
+.tiendasmart{
+    .tiendasmartcontenido{
+        .imagen-tienda{
+            background-image: url(/src/images/tienda.jpg);
+            height: 20rem;
+            background-repeat: no-repeat;
+            
+        }
+    }
+}
